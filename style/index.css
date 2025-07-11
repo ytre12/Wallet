@@ -102,6 +102,7 @@ header {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .boost-balance {
