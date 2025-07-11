@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-white {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.the-dollar::before {
+    content: '$ ';
+}
+
+.balance-seting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20%;
+}
+
+.btn-style {
+    color: white;
+    background-color: #282828;
+    border-radius: 10px;
+    border-style: none;
+    padding-inline: 15px;
+    padding-block: 10px;
+}
+
+.btn-is-activ {
+    transform: scale(1.05);
+    color: rgb(216, 215, 215);
+}
+
+.btn-style:hover {
+    background-color: #4B4B4B;
+    transform: scale(1.05);
+}
+
+.btn-style:active {
+    background-color: #6d6d6d;
+    transform: scale(1.05);
+}
+
+.flex-the-tranfer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-block: 3%;
+}
+/* 
+.the-tranfer-info-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80%;
+}
+
+.the-tranfer-info-y {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2%;
+    background-color: #4B4B4B;
+    border-radius: 15px;
+    border-style: none;
+    width: 95%;
+} */
+
+.payment-block {
+  background-color: #4B4B4B;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 300px;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.service-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.date {
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.tranfer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.boost-balance {
+    color: #04DC00;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.small-balance {
+    color: #D91F05;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.boost-balance::before {
+    content: '+ ';
+}
+
+.small-balance::before {
+    content: '- ';
+}
