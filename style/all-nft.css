@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     background-color: black;
+    font-family: "Rubik";
 }
 
 .text-white {
@@ -102,6 +105,49 @@ footer {
     background-color: #313131;
 }
 
+.btn-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background-color: #313131;
+    border-radius: 15px;
+    border-style: none;
+    margin: 20px;
+    padding-inline: 6px;
+    padding-block: 3px;
+}
+
+.user-market-btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #6d6d6d;
+    box-shadow: 2px 1px 2px #bebebe;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.user-market-btn:hover {
+    transform: scale(0.95);
+    background-color: #4B4B4B;
+    box-shadow: inset -1px -2px 2px #6d6d6d;
+}
+
+.user-market-btn:active {
+    transform: scale(0.9);
+    background-color: #282828;   
+    box-shadow: inset 0px 0px 5px #6d6d6d;
+}
+
+.btn-activ {
+    background-color: #bebebe;
+    color: black;
+    box-shadow: 2px 1px 2px #222121;
+}
+
 .card {
     padding: 10px;
     background-color: #313131;
@@ -117,8 +163,10 @@ footer {
     box-shadow: 2px 4px 5px #bebebe;
 }
 
+
 .text-name-nft {
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .img {
@@ -126,6 +174,7 @@ footer {
     border-radius: 10px;
     border-style: none;
 }
+
 
 .box-shop {
     margin-top: 20px;
@@ -141,60 +190,11 @@ footer {
     border-style: none;
 }
 
-.btn-position {
+
+.text-statistic {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 5%;
-    background-color: #313131;
-    border-radius: 15px;
-    border-style: none;
-    margin: 20px;
-    padding: 5px;
+    justify-content: space-between;
 }
 
-/* From Uiverse.io by d4niz */ 
-.contactButton {
-  background: #7079f0;
-  color: white;
-  font-family: inherit;
-  padding: 0.45em;
-  padding-left: 0.9em;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 0.9em;
-  border: none;
-  cursor: pointer;
-  letter-spacing: 0.05em;
-  display: flex;
-  align-items: center;
-  box-shadow: inset 0 0 1.6em -0.6em #714da6;
-  overflow: hidden;
-  position: relative;
-  height: 2.8em;
-  padding-right: 3em;
-}
-
-.iconButton {
-  margin-left: 1em;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.2em;
-  width: 2.2em;
-  border-radius: 0.7em;
-  box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
-  right: 0.3em;
-  transition: all 0.3s;
-}
-
-.contactButton:hover {
-  transform: translate(-0.05em, -0.05em);
-  box-shadow: 0.15em 0.15em #5566c2;
-}
-
-.contactButton:active {
-  transform: translate(0.05em, 0.05em);
-  box-shadow: 0.05em 0.05em #5566c2;
-}
+/* Анімація з градієнтом */
