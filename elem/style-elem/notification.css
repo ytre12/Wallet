@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Rubik";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.text-white {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    max-width: 500px;
+    gap: 40px;
+}
+
+.all-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-on-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #e3e5e6;
+    text-underline-offset: 6px;  
+    width: 90px;
+    font-size: 16px;
+    font-weight: 700px;
+    color: #e3e5e6;
+}
+
+
+.text-on-menu:hover {
+    color: #0194e9;
+    transform: scale(1.05);
+    text-decoration: underline;
+    text-decoration-color: #0194e9;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+}
+
+.text-on-menu:active {
+    transform: scale(0.95);
+    text-decoration-color: #0194e9;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+    font-size: 16px;
+}
+
+.text-menu-activ {
+    transform: scale(0.95);
+    text-decoration-color: #0194e9;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    color: #0194e9;
+} 
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 350px;
+  max-width: 500px;
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+.card-x {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.card-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-white {
+  color: white;
+  margin: 0;
+}
+
+.text-to-card-h {
+    font-size: 18px;
+}
+
+.text-to-card-p {
+    font-size: 14px;
+    color:#cccecf;
+}
