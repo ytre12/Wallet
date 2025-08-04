@@ -107,11 +107,6 @@ header {
   align-items: flex-start;
 }
 
-.text-white {
-  color: white;
-  margin: 0;
-}
-
 .text-to-card-h {
     font-size: 18px;
 }
