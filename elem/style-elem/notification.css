@@ -81,13 +81,14 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 350px;
+  min-width: 320px;
   max-width: 500px;
   background-color: #2b2b2b;
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-top: 15px;
+  margin-block: 5px;
 }
 
 .card-x {
@@ -118,4 +119,45 @@ header {
 .text-to-card-p {
     font-size: 14px;
     color:#cccecf;
+}
+
+.card-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 500px;
+    min-width: 320px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #2b2b2b;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 95%;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.flex-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    gap: 220px;
+}
+
+.flex-veiws {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+
+.text-to-news {
+    margin-inline: 10px;
 }
